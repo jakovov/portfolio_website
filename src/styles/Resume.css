@@ -1,0 +1,65 @@
+.resume-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.resume-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#resume-bar {
+  width: 100px;
+  height: 5px;
+  background-color: #ff8e3c;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.study-time-spent {
+  height: auto;
+  text-align: center !important;
+  width: 130px;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background-color: #008080;
+}
+#zamalce > header > div > div.resume-container > div > h3 {
+  font-size: 20px;
+}
+#zamalce > header > div > div.resume-container > div.resume-left {
+  text-align: left;
+  width: 400px;
+}
+#zamalce > header > div > div.resume-container > div.resume-right {
+  text-align: left;
+  width: 400px;
+}
+  .resume-left, .resume-right {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(33, 37, 41) !important;
+    width: calc(50% - 20px);
+    color: white;
+  }
+  .study-university {
+    color: #ff8e3c;
+  }
+  .study-description {
+    color: rgba(255,255,255,.5)!important;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .resume-left, .resume-right {
+      width: 100%;
+    }
+  }
+  

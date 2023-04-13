@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { useRef } from 'react';
 import useEmailForm from '../components/useEmailForm';
-
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import CallIcon from '@mui/icons-material/Call';
+import EmailIcon from '@mui/icons-material/Email';
 function Contact() {
   const form = useRef();
   const { formData, handleInputChange, handleSubmit, isError, showMessage, isSubmitted } = useEmailForm();
@@ -26,13 +28,51 @@ function Contact() {
         <div className='container py-5'>
           <div className='row custom-row'>
             <div className='col-md-5'>
-              <div className='contact-card'>
+            <div className='contact-card'>
                 <h3>Contact Information</h3>
+                <p>Feel free to contact me anytimes</p>
+                <div className='contact-card-inside'>
+
+
+
+
                 <ul>
-                  <li>Skopje, Macedonia</li>
-                  <li>(123) 456-7890</li>
-                  <li>atanasjakovov@gmail.com</li>
-                </ul>
+                <li>
+                <div className="left">
+                <span className='bigicon'><LocationOnIcon/></span>
+                </div>
+                <div className="right">
+                <div>
+                  <h6>Location</h6>
+                  <p>Skopje, Macedonia</p></div>
+                </div>
+                </li>
+                <li>
+                <div className="left">
+                <span><CallIcon/></span>
+                </div>
+                <div className="right">
+                <div>
+                  <h6>Number</h6>
+                  <p>(123) 456-7890</p></div>
+                </div>
+                </li>
+                <li>
+                <div className="left">
+                <span><EmailIcon/></span>
+                </div>
+                <div className="right">
+                <div>
+                  <h6>Email</h6>
+                  <p>atanasjakovov@gmail.com</p></div>
+                </div>
+                </li>
+</ul>
+
+
+
+          
+                </div>
               </div>
             </div>
             <div className='col-md-7'>
@@ -86,8 +126,8 @@ function Contact() {
                       <p>Your message was sent successfully.</p>
                     </div>
                   )}
-                  <button type='submit' className='btn mybtn' value='send'>
-                    Submit
+                  <button type='submit' className='btn mybtn' value='send' id='sumbitbtn'>
+                    Send Message
                   </button>
                 </form>
               </div>

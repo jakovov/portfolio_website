@@ -549,3 +549,83 @@ a {
     color: #007bff;
     text-decoration: none;
 }
+/* media querry */
+@media only screen and (max-width: 325px) {
+  #petar > header > div.container > div.content-block {
+    width: 250px;
+  }
+  #petar > header > div.container > div.content-block > div.content-description {
+    width: 250px;
+  }
+  .profile-picture {
+    width: 200px;
+    height: 400px;
+  }
+  #petar > header > div.container > div.content-block > h2{
+    font-size: 20px;
+  }
+  #petar > header > div.container > div.content-block > h6 {
+    font-size: 20px;
+  }
+  #petar > header > div.container > div.content-block > div.content-description > p {
+    width: 290px;
+    font-size: 15px;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  #petar > header > div.container > div.content-block {
+    width: 200px;
+}
+#petar > header > div.container > div.content-block > h2{
+  width: 300px;
+}
+#petar > header > div.container > div.content-block > h6 {
+  width: 300px;
+}
+#petar > header > div.container > div.content-block > div.content-description > p {
+  width: 300px;
+}
+} */
+@media only screen and (max-width: 800px) {
+  #petar > header > div.container > div.content-block {
+    width: auto;
+}
+#petar > header > div.container > div.content-block > h2{
+  width: auto;
+}
+#petar > header > div.container > div.content-block > h6 {
+  width: auto;
+}
+#petar > header > div.container > div.content-block > div.content-description > p {
+  width: auto;
+}
+}
+@media only screen and (min-width: 800px) {
+  #petar > header > div.container > div.content-block {
+    width: 700px;
+  }
+  #petar > header > div.container > div.content-block > h2{
+    width: 700px;
+  }
+  #petar > header > div.container > div.content-block > h6 {
+    width: 700px;
+  }
+  #petar > header > div.container > div.content-block > div.content-description > p {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #petar > header > div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #petar > header > div.container > div.content-block {
+    margin-top: 300px;
+    
+  }
+  #petar > header > div.container > div.profile-picture-container > img {
+    margin: 0;
+  }
+}
