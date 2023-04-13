@@ -106,5 +106,5 @@
       
     }
     header {
-      height: 913px; /*voa go smeniv ama i se smeni na sekoa strana treba important*/
+      min-height: 100vh; /*voa go smeniv ama i se smeni na sekoa strana treba important*/
     }
