@@ -16,22 +16,30 @@ function Navbar() {
   return (
     <div className='padding50'>
       <div className='navbar' id={expandNavbar ? 'open' : 'close'}>
+      <div className='media-fix'>
       <div className='testirame'>
         <div className='logo'><h3>orenji</h3></div>
+          
+          
+          </div>
+          <div><button className='hamburger-menu'><DarkModeIcon/></button></div>
           <div className='toggleButton'>
             <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
               <MenuIcon/>
             </button>
           </div>
-          </div>
+          
+</div>
         <div className='links'>
             <Link to="/"> Home</Link>
             <Link to="/about"> About</Link>
             <Link to="/resume"> Resume</Link>
             <Link to="/projects"> Projects</Link>
             <Link to="/contact"> Contact </Link>
-            <button><DarkModeIcon/></button>
+            
         </div>
+        
+        
       </div>
     </div>
   )

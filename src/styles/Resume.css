@@ -61,5 +61,50 @@
     .resume-left, .resume-right {
       width: 100%;
     }
+    
   }
   
+    @media (max-width: 840px) {
+      .resume-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1000px;
+        align-items: center;
+        width: 100%;
+    }
+      .resume-left, .resume-right {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 350px;
+        align-items: center;
+        justify-content: space-around;
+      }
+      
+    }
+    @media (max-width: 400px) {
+      .resume-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1000px;
+        align-items: center;
+        width: 100%;
+    }
+      .resume-left, .resume-right {
+        width: 300px !important;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 350px;
+        align-items: center;
+        justify-content: space-around;
+      }
+      
+    }
+    header {
+      height: 913px; /*voa go smeniv ama i se smeni na sekoa strana treba important*/
+    }

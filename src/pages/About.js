@@ -60,7 +60,7 @@ function About() {
                         </div>
                       </div>
                     </div>
-<div class="d-block d-sm-flex align-items-center" id='zakon'><a download="" href="assets/pdf/AtanaseJakovov-Cv.pdf" class="btn content-download button-main button-scheme" role="button">Download CV</a>
+<div class="" id='zakon'><a download="" href="assets/pdf/AtanaseJakovov-Cv.pdf" class="btn content-download button-main button-scheme" role="button">Download CV</a>
                       <ul class="list-unstyled list-inline content-follow">
                         <li class="list-inline-item"><a href="https://twitter.com/orenjipluto" target="_blank" rel="noopener noreferrer"><TwitterIcon/></a></li>
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/atanas-jakovov-58199520b/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a></li>

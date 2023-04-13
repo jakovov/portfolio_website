@@ -64,16 +64,6 @@
     border: 3px solid red; /* Поставете граница со црвена боја и ширина 2 пиксели */
     animation: border-move 2s linear infinite; /* Применете ја анимацијата за 2 секунди со линеарно движење и без крај */
   }
-/* .hphoto{
-    -webkit-animation: morph 8s ease-in-out infinite;
-    animation: morph 8s ease-in-out infinite;
-    border: 3px solid #2d2e32;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    height: 35rem;
-    position: relative;
-    transition: all 1s ease-in-out;
-    width: 35rem;
-} */
 .btn-container1 {
     display: flex;
     justify-content: space-evenly;
@@ -89,40 +79,16 @@
 .dabe {
   width: 150px;
 }
-/* media querry */
-
-/* @media only screen and (min-width: 425px) {
-  #root > div > div.header > div.hphoto {
-    padding: 0;
-    margin-top: 120px;
-    width: 410px;
-  }
-  #profilepic {
-    height: 20rem;  
-    width: 26rem;
-  }
-} */
-/* @media only screen and (min-width: 375px) {
-  #root > div > div.header > div.hphoto {
-    padding: 0;
-    margin-top: 120px;
-    width: 360px;
-  }
-  #profilepic {
-    height: 20rem;  
-    width: 23rem;
-  }
-}*/
 @media only screen and (min-width: 320px) {
-  #root > div > div.header {
+  /* #root > div > div.header {
     height: 1100px;
-  }
+  } */
   .headline {
     padding-top: 150px;
   }
   #root > div > div.header > div.hphoto {
     padding: 0;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     width: 290px !important;
   }
   #profilepic {
@@ -133,7 +99,14 @@
     object-fit: cover;
 }
 }
-
+@media only screen and (max-width: 320px) {
+  #root > div > div.header > div.headline > p:nth-child(1) {
+    font-size: 1.3rem;
+  }
+  #test {
+    font-size: 2rem;;
+  }
+}
 @media only screen and (max-width: 960px) {
   #petar > header > div.container {
     display: block;
@@ -160,18 +133,6 @@
   .headline {
     padding-top: 150px;
   }
-  /* #root > div > div.header > div.hphoto {
-    padding: 0;
-    margin-top: 120px;
-    width: 307px;
-  }
-  #profilepic {
-    height: 20rem;  
-    width: 20rem;
-  }
-  #profilepic {
-    object-fit: cover;
-} */
 #petar > header > div.container > div.content-block > div.content-description {
   width: 350px;
 }
@@ -186,7 +147,7 @@
 }
 }
 
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .toggleButton {
     display: none;
   }
@@ -203,4 +164,16 @@
   #open .links {
     flex-direction: row;
   }
-} */
+}
+@media only screen and (min-width: 600px) {
+  .headline {
+    padding-top: 30px;
+  }
+  .header {
+    min-height: 913px;
+  }
+  #root > div > div.header > div.hphoto {
+    width: 310px !important;
+    margin-bottom: 50px;
+  }
+}
