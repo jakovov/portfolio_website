@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Home.css';
 import { Link } from "react-router-dom";
-import headerphoto from '../assets/profile2.jpg'
+import headerphoto from '../assets/profile3.jpg'
 function Home() {
   return (
     <div className='header'>

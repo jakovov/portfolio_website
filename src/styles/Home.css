@@ -86,7 +86,8 @@
   .headline {
     
     padding-top: 0;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    margin-bottom: 200px;
 
   }
   #root > div > div.header > div.hphoto {
@@ -116,26 +117,29 @@
    
   }
   #profilepic {
-    height: 20rem;  
+    /* height: 20rem;   */
+    height: 19rem;
     width: 22rem;
   }
   #root > div > div.header > div.hphoto {
     padding: 0;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-bottom: 200px;
     width: 350px;
   }
   #root > div > div.header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 1300px;
+    /* height: 1300px; */
+    height: 1500px;
   }
   .header {
     display: block;
   }
-  .headline {
+  /* .headline {
     padding-top: 50px;
-  }
+  } */
 #petar > header > div.container > div.content-block > div.content-description {
   width: 350px;
 }
