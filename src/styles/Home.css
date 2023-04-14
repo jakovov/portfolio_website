@@ -1,11 +1,11 @@
 #test {
-    color: #0d0d0d;
+    /* color: #0d0d0d; */
     font-family: 'Roboto', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
     line-height: 1.2;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    color: white;
+    
 }
 .headline {
     color: #0d0d0d;
@@ -132,7 +132,7 @@
     justify-content: center;
     flex-direction: column;
     /* height: 1300px; */
-    height: 1500px;
+    height: 1400px;
   }
   .header {
     display: block;
@@ -185,9 +185,11 @@
   }
 }
 .white {
-  background-color: lightblue;
+  background-color: white;
 }
-
+.whitetext {
+  color: black;
+}
 
 
 

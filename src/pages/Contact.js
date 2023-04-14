@@ -7,7 +7,7 @@ import useEmailForm from '../components/useEmailForm';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
-function Contact() {
+function Contact({ colorScheme, colorSchemetext}) {
   const form = useRef();
   const { formData, handleInputChange, handleSubmit, isError, showMessage, isSubmitted } = useEmailForm();
 
@@ -16,11 +16,11 @@ function Contact() {
 
   return (
     <div id='zamalce'>
-      <header>
-        <div className='dare'>
+      <header className={`${colorScheme}`}>
+        <div className={`dare ${colorScheme}`}>
           <div className='dareinside'>
             <div className='section-heading page-heading'>
-              <h2 className='section-title'>Get in Touch</h2>
+              <h2 className={`section-title ${colorSchemetext}`}>Get in Touch</h2>
               <div className='animated-bar'></div>
             </div>
           </div>
@@ -29,7 +29,7 @@ function Contact() {
           <div className='row custom-row'>
             <div className='col-md-5'>
             <div className='contact-card'>
-                <h3>Contact Information</h3>
+                <h3 className={`${colorSchemetext}`}>Contact Information</h3>
                 <p>Feel free to contact me anytimes</p>
                 <div className='contact-card-inside'>
 
@@ -43,7 +43,7 @@ function Contact() {
                 </div>
                 <div className="right">
                 <div>
-                  <h6>Location</h6>
+                  <h6 className={`${colorSchemetext}`}>Location</h6>
                   <p>Skopje, Macedonia</p></div>
                 </div>
                 </li>
@@ -53,7 +53,7 @@ function Contact() {
                 </div>
                 <div className="right">
                 <div>
-                  <h6>Number</h6>
+                  <h6 className={`${colorSchemetext}`}>Number</h6>
                   <p>(123) 456-7890</p></div>
                 </div>
                 </li>
@@ -63,7 +63,7 @@ function Contact() {
                 </div>
                 <div className="right">
                 <div>
-                  <h6>Email</h6>
+                  <h6 className={`${colorSchemetext}`}>Email</h6>
                   <p>atanasjakovov@gmail.com</p></div>
                 </div>
                 </li>
@@ -77,7 +77,7 @@ function Contact() {
             </div>
             <div className='col-md-7'>
               <div className='contact-form'>
-                <h3>Message Me</h3>
+                <h3 className={`${colorSchemetext}`}>Message Me</h3>
                 <form ref={form} onSubmit={handleSubmit}>
                   <div className='form-group'>
                     <input

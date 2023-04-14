@@ -194,3 +194,7 @@ cursor: pointer;
   justify-content: space-between;
   align-items: center;
 }
+.dark-mode {
+  background-color: white;
+  color: black;
+}

@@ -13,7 +13,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     /* color: #3c3c3c; */
-    color: white;
+    /* color: white; */
   }
   
   .contact-card ul {
@@ -50,7 +50,7 @@
     font-weight: bold;
     margin-bottom: 20px;
     /* color: #3c3c3c; */
-    color: white;
+    /* color: white; */
   }
   
   .contact-form label {
@@ -246,4 +246,10 @@
 .popup.error {
  background-color: red;
   color: white;
+}
+.white {
+  background-color: white;
+}
+.whitetext {
+  color: black;
 }

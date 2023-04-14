@@ -1,14 +1,14 @@
 import React from 'react'
 
-function Projects() {
+function Projects({ colorScheme, colorSchemetext}) {
   return (
     <div id='zamalce'>
-    <header>
-  <div class="dare">
+    <header className={`${colorScheme}`}>
+    <div className={`dare ${colorScheme}`}>
               <div class="dareinside">
                 <div class="section-heading page-heading">
                   {/* <p class="section-description">Get to know me</p> */}
-                  <h2 class="section-title">My projects</h2>
+                  <h2 className={`section-title ${colorSchemetext}`}>My projects</h2>
                   <div class="animated-bar"></div>
                 </div>
               </div>

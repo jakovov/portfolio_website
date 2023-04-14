@@ -2,13 +2,13 @@ import React from 'react'
 import '../styles/Home.css';
 import { Link } from "react-router-dom";
 import headerphoto from '../assets/profile3.jpg'
-function Home() {
+function Home({ colorScheme, colorSchemetext }) {
   return (
-    <div className='header'>
+    <div className={`header ${colorScheme}`}>
     <div className='headline'>
-      <p>Hello I'm </p>
-      <h1 id='test'>Atanas Jakovov</h1>
-      <p>A passionate Front-end React Developer based in Skopje, Macedonia.</p>
+      <p className={`${colorSchemetext}`}>Hello I'm </p>
+      <h1 id='test' className={`${colorSchemetext}`}>Atanas Jakovov</h1>
+      <p className={`${colorSchemetext}`}>A passionate Front-end React Developer based in Skopje, Macedonia.</p>
       <div className='btn-container1'>
         <button className='btn1 dabe' id='zeleno'> <a download="" href="assets/pdf/AtanaseJakovov-Cv.pdf">Download CV</a> </button>
         <Link to="/contact"> <button className='btn1 dabe'>Contact Me</button></Link>

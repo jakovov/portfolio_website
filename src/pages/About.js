@@ -6,16 +6,16 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 // import profilepic from '../assets/profile2.jpg';
 import ProfilePicture from './test';
-function About() {
+function About({colorScheme, colorSchemetext}) {
   return (
     <div id='petar'>
     
-  <header>
-  <div class="dare">
+    <header className={`${colorScheme} ${colorSchemetext}`}>
+  <div className={`dare ${colorScheme}`}>
               <div class="dareinside">
                 <div class="section-heading page-heading">
                   {/* <p class="section-description">Get to know me</p> */}
-                  <h2 class="section-title">About Me</h2>
+                  <h2 className={`section-title ${colorSchemetext}`}>About Me</h2>
                   <div class="animated-bar"></div>
                 </div>
               </div>
@@ -27,7 +27,7 @@ function About() {
     <div class="content-block">
 	<h2 class="content-subtitle">Who am i?</h2>
 <h6 class="content-title">I'm Atanas Jakovov, a Front-End Developer</h6>
-<div class="content-description">
+<div className={`content-description ${colorSchemetext}`}>
                       <p>
                       Hey there, I'm Atanas Jakovov, a Front-End Developer who's passionate about crafting seamless user experiences on the web. With 4 years of experience in web development, I specialize in building responsive and intuitive interfaces using HTML, CSS, and JavaScript, as well as modern front-end frameworks such as React and Vue. When I'm not coding, I love to unwind by gaming and exploring virtual worlds.
                       I'm always eager to learn new technologies and stay up-to-date with the latest developments in front-end development. Let's collaborate on your next project and create something amazing!

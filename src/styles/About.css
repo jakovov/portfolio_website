@@ -633,3 +633,10 @@ a {
 body {
   background-color: rgb(50, 50, 50);
 }
+.white {
+  background-color: white;
+}
+.whitetext {
+  color: black;
+  
+}

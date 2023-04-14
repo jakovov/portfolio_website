@@ -1,19 +1,30 @@
 import React from 'react'
 import '../styles/Resume.css'
+import htmlphoto from '../assets/html-5.png'
+import cssicon from '../assets/css-3.png'
+import bootstrapicon from '../assets/bootstrap.png'
+import tailwindicon from '../assets/tailwind-css.png'
+import javascripticon from '../assets/js.png'
+import jqueryicon from '../assets/jquery.png'
+import ajaxicon from '../assets/ajax.png'
+import giticon from '../assets/gitlab.png'
+import reacticon from '../assets/react-js.png'
+import vueicon from '../assets/vue-js.png'
 
-function Resume() {
+
+function Resume({ colorScheme, colorSchemetext}) {
     return (
-        <div id='zamalce'>
-            <header>
-                <div class="dare">
+        <div id='zamalce' >
+            <header className={`${colorScheme}`}>
+                <div className={`dare ${colorScheme}`}>
                     <div class="dareinside">
                         <div class="section-heading page-heading">
                             {/* <p class="section-description">Get to know me</p> */}
-                            <h2 class="section-title">Resume</h2>
+                            <h2 className={`section-title ${colorSchemetext}`}>Resume</h2>
                             <div class="animated-bar" id='resume-bar'></div>
                         </div>
                         </div>
-                        <h2>Education</h2>
+                        <h2 className={`${colorSchemetext}`}>Education</h2>
                         <div class="resume-container">
                         
                             <div class="resume-left">
@@ -38,6 +49,84 @@ function Resume() {
                                 </ul> */}
                             </div>
                         </div>
+
+                        <div class="private-container">
+                        <div className='skillstitle'>
+		<h1>My Skills</h1>
+        </div>
+        <div className='skills-inside'>
+        <div className='mkd'>
+		<div class="skill">
+        
+			<div class="skill-name"> <h5>HTML5</h5> <img src={htmlphoto} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '95%'}}><span>95%</span></div>
+			</div>
+		</div>
+       
+		<div class="skill">
+			<div class="skill-name"><h5>CSS</h5><img src={cssicon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '95%'}}><span>95%</span></div>
+			</div>
+		</div>
+		<div class="skill">
+			<div class="skill-name"><h5>Bootstrap</h5> <img src={bootstrapicon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '95%' }}><span>95%</span></div>
+			</div>
+		</div>
+        <div class="skill">
+			<div class="skill-name"><h5>Tailwind CSS</h5><img src={tailwindicon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '50%' }}><span>50%</span></div>
+			</div>
+		</div>
+		<div class="skill">
+			<div class="skill-name"><h5>Javascript</h5> <img src={javascripticon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '80%' }}><span>80%</span></div>
+			</div>
+		</div>
+        </div>
+        <div className='mkd2'>
+		<div class="skill">
+			<div class="skill-name"><h5>Jquery</h5> <img src={jqueryicon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '80%' }}><span>80%</span></div>
+			</div>
+		</div>
+       
+        
+		<div class="skill">
+			<div class="skill-name"><h5>AJAX </h5><img src={ajaxicon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '80%' }}><span>80%</span></div>
+			</div>
+		</div>
+        <div class="skill">
+			<div class="skill-name"><h5>GIT</h5> <img src={giticon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '99%' }}><span>99%</span></div>
+			</div>
+		</div>
+        <div class="skill">
+			<div class="skill-name"><h5>React</h5> <img src={reacticon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '70%' }}><span>70%</span></div>
+			</div>
+		</div>
+        <div class="skill">
+			<div class="skill-name"><h5>Vue.js</h5> <img src={vueicon} alt="skill" className='skillphoto'></img></div>
+			<div class="progress-bar">
+				<div class="progress" style={{ width: '70%' }}><span>70%</span></div>
+			</div>
+		</div>
+        </div>
+        </div>
+	</div>         
+
+
 
                    
                 </div>

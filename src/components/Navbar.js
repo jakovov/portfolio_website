@@ -5,7 +5,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
-function Navbar() {
+function Navbar({ toggleColorScheme }) {
+  
   const [expandNavbar, setExpandNavbar] = useState(false);
 
   const location = useLocation();
@@ -22,7 +23,7 @@ function Navbar() {
           
           
           
-          <div><button className='hamburger-menu'><DarkModeIcon/></button></div>
+          <div><button className='hamburger-menu' onClick={toggleColorScheme}><DarkModeIcon/></button></div>
           <div className='toggleButton'>
             <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
               <MenuIcon/>
