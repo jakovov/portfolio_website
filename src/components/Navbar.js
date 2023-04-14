@@ -23,7 +23,7 @@ function Navbar({ toggleColorScheme }) {
           
           
           
-          <div><button className='hamburger-menu' onClick={toggleColorScheme}><DarkModeIcon/></button></div>
+          <div className='icon-container'><button className='hamburger-menu' onClick={toggleColorScheme}><DarkModeIcon/></button><div class="info-box">Dont use this it sucks!</div></div>
           <div className='toggleButton'>
             <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
               <MenuIcon/>

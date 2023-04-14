@@ -466,7 +466,8 @@
 }.content-description {
     font-size: 15px;
 }.content-description p:last-child {
-    border-bottom: 2px solid rgba(255,255,255,.08);
+    /* border-bottom: 2px solid rgba(255,255,255,.08); */
+    border-bottom: 2px solid rgb(50, 50, 50);
     margin-bottom: 0;
     padding-bottom: 29px;
 }.content-info {
@@ -522,7 +523,8 @@
     justify-content: flex-start;
 }
 .content-follow:before {
-    background-color: rgba(255,255,255,.25);
+    /* background-color: rgba(255,255,255,.25); */
+    background-color: rgb(50, 50, 50);
     content: '';
     height: 2px;
     margin-right: 23px;
@@ -639,4 +641,7 @@ body {
 .whitetext {
   color: black;
   
+}
+.blackborder {
+  border-bottom: 2px solid black;
 }
