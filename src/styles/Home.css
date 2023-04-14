@@ -118,20 +118,20 @@
   }
   #root > div > div.header > div.hphoto {
     padding: 0;
-    margin-top: 0px;
+    margin-top: 50px;
     width: 350px;
   }
   #root > div > div.header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 1100px;
+    height: 1300px;
   }
   .header {
     display: block;
   }
   .headline {
-    padding-top: 150px;
+    padding-top: 50px;
   }
 #petar > header > div.container > div.content-block > div.content-description {
   width: 350px;
@@ -177,3 +177,11 @@
     margin-bottom: 50px;
   }
 }
+.white {
+  background-color: lightblue;
+}
+
+
+
+
+

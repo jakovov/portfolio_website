@@ -83,13 +83,12 @@ cursor: pointer;
   color: white;
 }
 
-#open a  {
+#open > div.links > a  {
   font-size: 30px;
   text-decoration: none;
   /* color: #000; */
   padding: 10px;
   cursor: pointer;
-  color: white;
 }
 
 @media only screen and (max-width: 900px) {
@@ -99,10 +98,16 @@ cursor: pointer;
 }
 
 @media only screen and (max-width: 620px) {
+  .navbar a {
+    color: #ff8e3c;
+    text-decoration: none;
+   margin: 0px;
+    font-size: 25px;
+}
   .toggleButton {
     display: flex;
   }
-  #close a {
+  #close > div.links > a {
     display: none;
   }
   .navbar {
@@ -113,6 +118,11 @@ cursor: pointer;
     display: flex;
     align-items: center;
     /* width: 100%; */
+}
+#open > div.media-fix {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
 }
 }
 
