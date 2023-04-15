@@ -88,6 +88,15 @@
         height: 1100px;
         width: 400px;
       }
+      #zamalce > header > div > div.private-container > div { 
+        width: auto !important;
+        display: flex;
+        flex-direction: column !important; 
+        justify-content: center;
+      }
+      #zamalce > header > div > div.private-container > div.skills-inside > div {
+        width: 300px !important;
+      }
       
     }
     @media (max-width: 400px) {
@@ -113,7 +122,7 @@
         display: flex;
         flex-direction: column;
         height: 1100px;
-        width: 300px;
+        /* width: 300px; */
       }
       .skill {
         width: 280px;
@@ -122,6 +131,16 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    #zamalce > header > div > div.private-container { 
+      width: 300px !important;
+    }
+    #zamalce > header > div > div.private-container > div.skills-inside > div {
+      width: 300px;
+    }
+    #zamalce > header > div > div.private-container > div.skills-inside {
+      display: flex;
+      flex-direction: column;
     }
     }
     header {
@@ -196,6 +215,14 @@
     .skill-name {
       display: flex;
       justify-content: space-between;
+    }
+    @media (min-width: 840px) {
+      #zamalce > header > div > div.private-container {
+        width: 810px !important;
+      }
+      #zamalce > header > div > div.private-container > div.skills-inside > div {
+        width: 300px;
+      }
     }
     .white {
       background-color: white;
