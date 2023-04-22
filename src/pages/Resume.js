@@ -17,23 +17,23 @@ function Resume({ colorScheme, colorSchemetext}) {
         <div id='zamalce' >
             <header className={`${colorScheme}`}>
                 <div className={`dare ${colorScheme}`}>
-                    <div class="dareinside">
-                        <div class="section-heading page-heading">
+                    <div className="dareinside">
+                        <div className="section-heading page-heading">
                             {/* <p class="section-description">Get to know me</p> */}
                             <h2 className={`section-title ${colorSchemetext}`}>Resume</h2>
-                            <div class="animated-bar" id='resume-bar'></div>
+                            <div className="animated-bar" id='resume-bar'></div>
                         </div>
                         </div>
                         <h2 className={`${colorSchemetext}`}>Education</h2>
-                        <div class="resume-container">
+                        <div className="resume-container">
                         
-                            <div class="resume-left">
+                            <div className="resume-left">
                                 <p className='study-time-spent'>2017-Present</p>
                                 <h3>Software Engineer in Computer Science</h3>
                                 <p className='study-university'>FINKI</p>
                                 <p className='study-description'>Faculty of Computer Science & Engineering , specifically Application of e-technologies - Ss. Cyril & Methodius University</p>
                             </div>
-                            <div class="resume-right">
+                            <div className="resume-right">
                                 <p className='study-time-spent'>2019-2020</p>
                                 <h3>Front-End Developer</h3>
                                 <p className='study-university'>Brainster Academy</p>
@@ -50,76 +50,76 @@ function Resume({ colorScheme, colorSchemetext}) {
                             </div>
                         </div>
 
-                        <div class="private-container">
+                        <div className="private-container">
                         <div className='skillstitle'>
 		<h1>My Skills</h1>
         </div>
         <div className='skills-inside'>
         <div className='mkd'>
-		<div class="skill">
+		<div className="skill">
         
-			<div class="skill-name"> <h5>HTML5</h5> <img src={htmlphoto} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '95%'}}><span>95%</span></div>
+			<div className="skill-name"> <h5>HTML5</h5> <img src={htmlphoto} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '95%'}}><span>95%</span></div>
 			</div>
 		</div>
        
-		<div class="skill">
-			<div class="skill-name"><h5>CSS</h5><img src={cssicon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '95%'}}><span>95%</span></div>
+		<div className="skill">
+			<div className="skill-name"><h5>CSS</h5><img src={cssicon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '95%'}}><span>95%</span></div>
 			</div>
 		</div>
-		<div class="skill">
-			<div class="skill-name"><h5>Bootstrap</h5> <img src={bootstrapicon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '95%' }}><span>95%</span></div>
+		<div className="skill">
+			<div className="skill-name"><h5>Bootstrap</h5> <img src={bootstrapicon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '95%' }}><span>95%</span></div>
 			</div>
 		</div>
-        <div class="skill">
-			<div class="skill-name"><h5>Tailwind CSS</h5><img src={tailwindicon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '50%' }}><span>50%</span></div>
+        <div className="skill">
+			<div className="skill-name"><h5>Tailwind CSS</h5><img src={tailwindicon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '50%' }}><span>50%</span></div>
 			</div>
 		</div>
-		<div class="skill">
-			<div class="skill-name"><h5>Javascript</h5> <img src={javascripticon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '80%' }}><span>80%</span></div>
+		<div className="skill">
+			<div className="skill-name"><h5>Javascript</h5> <img src={javascripticon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '80%' }}><span>80%</span></div>
 			</div>
 		</div>
         </div>
         <div className='mkd2'>
-		<div class="skill">
-			<div class="skill-name"><h5>Jquery</h5> <img src={jqueryicon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '80%' }}><span>80%</span></div>
+		<div className="skill">
+			<div className="skill-name"><h5>Jquery</h5> <img src={jqueryicon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '80%' }}><span>80%</span></div>
 			</div>
 		</div>
        
         
-		<div class="skill">
-			<div class="skill-name"><h5>AJAX </h5><img src={ajaxicon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '80%' }}><span>80%</span></div>
+		<div className="skill">
+			<div className="skill-name"><h5>AJAX </h5><img src={ajaxicon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '80%' }}><span>80%</span></div>
 			</div>
 		</div>
-        <div class="skill">
-			<div class="skill-name"><h5>GIT</h5> <img src={giticon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '99%' }}><span>99%</span></div>
+        <div className="skill">
+			<div className="skill-name"><h5>GIT</h5> <img src={giticon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '99%' }}><span>99%</span></div>
 			</div>
 		</div>
-        <div class="skill">
-			<div class="skill-name"><h5>React</h5> <img src={reacticon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '70%' }}><span>70%</span></div>
+        <div className="skill">
+			<div className="skill-name"><h5>React</h5> <img src={reacticon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '70%' }}><span>70%</span></div>
 			</div>
 		</div>
-        <div class="skill">
-			<div class="skill-name"><h5>Vue.js</h5> <img src={vueicon} alt="skill" className='skillphoto'></img></div>
-			<div class="progress-bar">
-				<div class="progress" style={{ width: '70%' }}><span>70%</span></div>
+        <div className="skill">
+			<div className="skill-name"><h5>Vue.js</h5> <img src={vueicon} alt="skill" className='skillphoto'></img></div>
+			<div className="progress-bar">
+				<div className="progress" style={{ width: '70%' }}><span>70%</span></div>
 			</div>
 		</div>
         </div>
