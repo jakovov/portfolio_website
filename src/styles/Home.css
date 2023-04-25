@@ -49,20 +49,19 @@
     }
     50% {
       border-color: orangered;
-      transform: translateX(10px); /* Преместете ја границата за 10 пиксели во десно */
+      transform: translateX(10px);
     }
     100% {
       border-color: #0d0d0d;
     }
   }
   
-  /* Применете ја анимацијата на елементот */
   .hphoto {
     overflow: hidden;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     height: 300px;
-    border: 3px solid red; /* Поставете граница со црвена боја и ширина 2 пиксели */
-    animation: border-move 2s linear infinite; /* Применете ја анимацијата за 2 секунди со линеарно движење и без крај */
+    border: 3px solid red; 
+    animation: border-move 2s linear infinite; 
   }
 .btn-container1 {
     display: flex;
@@ -80,9 +79,6 @@
   width: 150px;
 }
 @media only screen and (min-width: 320px) {
-  /* #root > div > div.header {
-    height: 1100px;
-  } */
   .headline {
     
     padding-top: 0;

@@ -7,12 +7,12 @@ import useEmailForm from '../components/useEmailForm';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
-function Contact({ colorScheme, colorSchemetext}) {
+function Contact({ colorScheme, colorSchemetext }) {
   const form = useRef();
   const { formData, handleInputChange, handleSubmit, isError, showMessage, isSubmitted } = useEmailForm();
 
 
- 
+
 
   return (
     <div id='zamalce'>
@@ -28,7 +28,7 @@ function Contact({ colorScheme, colorSchemetext}) {
         <div className='container py-5'>
           <div className='row custom-row'>
             <div className='col-md-5'>
-            <div className='contact-card'>
+              <div className='contact-card'>
                 <h3 className={`${colorSchemetext}`}>Contact Information</h3>
                 <p>Feel free to contact me anytimes</p>
                 <div className='contact-card-inside'>
@@ -36,42 +36,42 @@ function Contact({ colorScheme, colorSchemetext}) {
 
 
 
-                <ul>
-                <li>
-                <div className="left">
-                <span className='bigicon'><LocationOnIcon/></span>
-                </div>
-                <div className="right">
-                <div>
-                  <h6 className={`${colorSchemetext}`}>Location</h6>
-                  <p>Skopje, Macedonia</p></div>
-                </div>
-                </li>
-                <li>
-                <div className="left">
-                <span><CallIcon/></span>
-                </div>
-                <div className="right">
-                <div>
-                  <h6 className={`${colorSchemetext}`}>Number</h6>
-                  <p>(123) 456-7890</p></div>
-                </div>
-                </li>
-                <li>
-                <div className="left">
-                <span><EmailIcon/></span>
-                </div>
-                <div className="right">
-                <div>
-                  <h6 className={`${colorSchemetext}`}>Email</h6>
-                  <p>atanasjakovov@gmail.com</p></div>
-                </div>
-                </li>
-</ul>
+                  <ul>
+                    <li>
+                      <div className="left">
+                        <span className='bigicon'><LocationOnIcon /></span>
+                      </div>
+                      <div className="right">
+                        <div>
+                          <h6 className={`${colorSchemetext}`}>Location</h6>
+                          <p>Skopje, Macedonia</p></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="left">
+                        <span><CallIcon /></span>
+                      </div>
+                      <div className="right">
+                        <div>
+                          <h6 className={`${colorSchemetext}`}>Number</h6>
+                          <p>(389) 78 270 732</p></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="left">
+                        <span><EmailIcon /></span>
+                      </div>
+                      <div className="right">
+                        <div>
+                          <h6 className={`${colorSchemetext}`}>Email</h6>
+                          <p>atanasjakovov@gmail.com</p></div>
+                      </div>
+                    </li>
+                  </ul>
 
 
 
-          
+
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ function Contact({ colorScheme, colorSchemetext}) {
       </header>
     </div>
   );
-  
+
 }
 
 export default Contact;
