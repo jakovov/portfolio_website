@@ -95,9 +95,6 @@ cursor: pointer;
   .navbar a {
     width: 100%;
   }
-  .icon-container:hover .info-box {
-    display: none !important;
-  }
 }
 
 @media only screen and (max-width: 620px) {
@@ -207,19 +204,5 @@ cursor: pointer;
   display: inline-block;
 }
 
-.info-box {
-  position: absolute;
-  width: 200px;
-  top: 120%;
-  left: 250%;
-  transform: translateX(-50%);
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  display: none;
-}
 
-.icon-container:hover .info-box {
-  display: block;
-}
+
