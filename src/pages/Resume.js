@@ -38,15 +38,6 @@ function Resume({ colorScheme, colorSchemetext}) {
                                 <h3>Front-End Developer</h3>
                                 <p className='study-university'>Brainster Academy</p>
                                 <p className='study-description'>Front-end developer course at that provides hands-on training in the latest web development technologies and techniques. With practical experience in real-world projects</p>
-                                {/* <ul>
-                                    <li>HTML/CSS</li>
-                                    <li>Bootstrap</li>
-                                    <li>Javascript</li>
-                                    <li>Jquery</li>
-                                    <li>AJAX</li>
-                                    <li>UX/UI</li>
-                                    <li>React</li>
-                                </ul> */}
                             </div>
                         </div>
 
@@ -93,7 +84,7 @@ function Resume({ colorScheme, colorSchemetext}) {
 		<div className="skill">
 			<div className="skill-name"><h5>Jquery</h5> <img src={jqueryicon} alt="skill" className='skillphoto'></img></div>
 			<div className="progress-bar">
-				<div className="progress" style={{ width: '80%' }}><span>80%</span></div>
+				<div className="progress" style={{ width: '80%' }}><span>70%</span></div>
 			</div>
 		</div>
        
@@ -101,7 +92,7 @@ function Resume({ colorScheme, colorSchemetext}) {
 		<div className="skill">
 			<div className="skill-name"><h5>AJAX </h5><img src={ajaxicon} alt="skill" className='skillphoto'></img></div>
 			<div className="progress-bar">
-				<div className="progress" style={{ width: '80%' }}><span>80%</span></div>
+				<div className="progress" style={{ width: '80%' }}><span>70%</span></div>
 			</div>
 		</div>
         <div className="skill">
@@ -119,7 +110,7 @@ function Resume({ colorScheme, colorSchemetext}) {
         <div className="skill">
 			<div className="skill-name"><h5>Vue.js</h5> <img src={vueicon} alt="skill" className='skillphoto'></img></div>
 			<div className="progress-bar">
-				<div className="progress" style={{ width: '70%' }}><span>70%</span></div>
+				<div className="progress" style={{ width: '30%' }}><span>30%</span></div>
 			</div>
 		</div>
         </div>

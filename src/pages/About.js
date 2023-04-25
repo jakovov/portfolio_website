@@ -29,7 +29,7 @@ function About({colorScheme, colorSchemetext}) {
 <h6 className="content-title">I'm Atanas Jakovov, a Front-End Developer</h6>
 <div className={`content-description ${colorSchemetext}`}>
                       <p>
-                      Hey there, I'm Atanas Jakovov, a Front-End Developer who's passionate about crafting seamless user experiences on the web. With 4 years of experience in web development, I specialize in building responsive and intuitive interfaces using HTML, CSS, and JavaScript, as well as modern front-end frameworks such as React and Vue. When I'm not coding, I love to unwind by gaming and exploring virtual worlds.
+                      Hey there, I'm Atanas Jakovov, a Front-End Developer who's passionate about crafting seamless user experiences on the web. With 4 years of experience in web development, I specialize in building responsive and intuitive interfaces using HTML, CSS, and JavaScript, as well as modern front-end frameworks such as React. When I'm not coding, I love to unwind by gaming and exploring virtual worlds.
                       I'm always eager to learn new technologies and stay up-to-date with the latest developments in front-end development. Let's collaborate on your next project and create something amazing!
                       </p>
                     </div>
