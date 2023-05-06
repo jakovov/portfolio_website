@@ -5,16 +5,16 @@ import headerphoto from '../assets/profile3.jpg'
 function Home({ colorScheme, colorSchemetext }) {
   return (
     <div className={`header ${colorScheme}`}>
-    <div className='headline'>
-      <p className={`${colorSchemetext}`}>Hello I'm </p>
-      <h1 id='test' className={`${colorSchemetext}`}>Atanas Jakovov</h1>
-      <p className={`${colorSchemetext}`}>A passionate Front-end React Developer based in Skopje, Macedonia.</p>
-      <div className='btn-container1'>
-        <button className='btn1 dabe' id='zeleno'> <a download="" href="assets/pdf/AtanaseJakovov-Cv.pdf">Download CV</a> </button>
-        <Link to="/contact"> <button className='btn1 dabe'>Contact Me</button></Link>
+      <div className='headline'>
+        <p className={`${colorSchemetext}`}>Hello I'm </p>
+        <h1 id='test' className={`${colorSchemetext}`}>Atanas Jakovov</h1>
+        <p className={`${colorSchemetext}`}>A passionate Front-end React Developer based in Skopje, Macedonia.</p>
+        <div className='btn-container1'>
+          <button className='btn1 dabe' id='zeleno'><a download href="../public/assets/pdf/AtanaseJakovov-Cv.pdf">Download CV</a></button>
+          <Link to="/contact"> <button className='btn1 dabe'>Contact Me</button></Link>
+        </div>
       </div>
-    </div>
-    <div className='hphoto'><img src={headerphoto} alt="My profile" id='profilepic'></img></div>
+      <div className='hphoto'><img src={headerphoto} alt="My profile" id='profilepic'></img></div>
     </div>
   )
 }
