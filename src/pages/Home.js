@@ -10,9 +10,10 @@ function Home({ colorScheme, colorSchemetext }) {
         <h1 id='test' className={`${colorSchemetext}`}>Atanas Jakovov</h1>
         <p className={`${colorSchemetext}`}>A passionate Front-end React Developer based in Skopje, Macedonia.</p>
         <div className='btn-container1'>
-        <button className='btn1 dabe' id='zeleno'>
-  <a href="/assets/pdf/AtanaseJakovov-Cv.pdf" download>Download</a>
+        <button className='btn1 dabe' id='zeleno' onClick={() => {window.location.href = "/assets/pdf/AtanaseJakovov-Cv.pdf";}}>
+  Download
 </button>
+
           <Link to="/contact"> <button className='btn1 dabe'>Contact Me</button></Link>
         </div>
       </div>
