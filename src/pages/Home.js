@@ -10,7 +10,8 @@ function Home({ colorScheme, colorSchemetext }) {
         <h1 id='test' className={`${colorSchemetext}`}>Atanas Jakovov</h1>
         <p className={`${colorSchemetext}`}>A passionate Front-end React Developer based in Skopje, Macedonia.</p>
         <div className='btn-container1'>
-          <button className='btn1 dabe' id='zeleno'><a href="../public/assets/pdf/AtanaseJakovov-Cv.pdf" download="AtanaseJakovov-Cv.pdf">Download CV</a></button>
+          <button className='btn1 dabe' id='zeleno'>
+          <Link to="../public/assets/pdf/AtanaseJakovov-Cv.pdf" target="_blank" download>Download</Link></button>
           <Link to="/contact"> <button className='btn1 dabe'>Contact Me</button></Link>
         </div>
       </div>
