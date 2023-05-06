@@ -2,9 +2,9 @@ import React from 'react'
 import '../styles/Home.css';
 import { Link } from "react-router-dom";
 import headerphoto from '../assets/profile3.jpg'
-import pdffile from '../assets/pdf/AtanaseJakovov-Cv.pdf';
+import Pdffile from '../assets/pdf/AtanaseJakovov-Cv.pdf';
 function downloadFile() {
-  fetch(pdffile)
+  fetch(Pdffile)
     .then(response => response.blob())
     .then(blob => {
       const url = URL.createObjectURL(blob);
