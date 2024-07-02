@@ -31,7 +31,7 @@ function Projects({ colorScheme, colorSchemetext }) {
               <h2>Stafilov-Solar Website</h2>
               <p>Website Stafilov-Solar Company</p>
               <div className="card-buttons">
-                <a href="https://astonishing-mooncake-1251cc.netlify.app/" target="_blank" rel="noopener noreferrer" className="demo-button">Demo</a>
+                <a href="https://stafilov-solar.netlify.app/" target="_blank" rel="noopener noreferrer" className="demo-button">Demo</a>
                 <a href="https://github.com/jakovov/stafilovsolar-website" target="_blank" rel="noopener noreferrer" className="code-button">Code</a>
               </div>
             </div>

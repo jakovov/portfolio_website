@@ -7,6 +7,7 @@ import tailwindicon from '../assets/tailwind-css.png'
 import javascripticon from '../assets/js.png'
 import jqueryicon from '../assets/jquery.png'
 import ajaxicon from '../assets/ajax.png'
+import astroicon from '../assets/astro.png'
 import giticon from '../assets/gitlab.png'
 import reacticon from '../assets/react-js.png'
 import vueicon from '../assets/vue-js.png'
@@ -50,68 +51,68 @@ function Resume({ colorScheme, colorSchemetext }) {
 								<div className="skill">
 
 									<div className="skill-name"> <h5>HTML5</h5> <img src={htmlphoto} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '95%' }}><span>95%</span></div>
-									</div>
+									</div> */}
 								</div>
 
 								<div className="skill">
 									<div className="skill-name"><h5>CSS</h5><img src={cssicon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '95%' }}><span>95%</span></div>
-									</div>
+									</div> */}
 								</div>
 								<div className="skill">
 									<div className="skill-name"><h5>Bootstrap</h5> <img src={bootstrapicon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '95%' }}><span>95%</span></div>
-									</div>
+									</div> */}
 								</div>
 								<div className="skill">
 									<div className="skill-name"><h5>Tailwind CSS</h5><img src={tailwindicon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '50%' }}><span>50%</span></div>
-									</div>
+									</div> */}
 								</div>
 								<div className="skill">
 									<div className="skill-name"><h5>Javascript</h5> <img src={javascripticon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '80%' }}><span>80%</span></div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<div className='mkd2'>
 								<div className="skill">
 									<div className="skill-name"><h5>Jquery</h5> <img src={jqueryicon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '80%' }}><span>70%</span></div>
-									</div>
+									</div> */}
 								</div>
 
 
 								<div className="skill">
-									<div className="skill-name"><h5>AJAX </h5><img src={ajaxicon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									<div className="skill-name"><h5>ASTRO </h5><img src={astroicon} alt="skill" className='skillphoto'></img></div>
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '80%' }}><span>70%</span></div>
-									</div>
+									</div> */}
 								</div>
 								<div className="skill">
 									<div className="skill-name"><h5>GIT</h5> <img src={giticon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '99%' }}><span>99%</span></div>
-									</div>
+									</div> */}
 								</div>
 								<div className="skill">
-									<div className="skill-name"><h5>React</h5> <img src={reacticon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									<div className="skill-name"><h5>React.js</h5> <img src={reacticon} alt="skill" className='skillphoto'></img></div>
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '70%' }}><span>70%</span></div>
-									</div>
+									</div> */}
 								</div>
 								<div className="skill">
 									<div className="skill-name"><h5>Vue.js</h5> <img src={vueicon} alt="skill" className='skillphoto'></img></div>
-									<div className="progress-bar">
+									{/* <div className="progress-bar">
 										<div className="progress" style={{ width: '30%' }}><span>30%</span></div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

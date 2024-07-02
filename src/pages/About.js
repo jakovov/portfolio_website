@@ -39,7 +39,7 @@ function About({ colorScheme, colorSchemetext }) {
                   <p>19.11.1998</p>
                 </div>
                 <div className="col-12 col-md-6 single-info"><span>Email:</span>
-                  <p><a href="mailto:emma@example.com">atanasjakovov@gmail.com</a></p>
+                  <p><a href="mailto:atanasjakovov@gmail.com">atanasjakovov@gmail.com</a></p>
                 </div>
               </div>
 
@@ -60,7 +60,11 @@ function About({ colorScheme, colorSchemetext }) {
                 </div>
               </div>
             </div>
-            <div className="" id='zakon'><a download="" href="assets/pdf/AtanaseJakovov-Cv.pdf" className="btn content-download button-main button-scheme" role="button">Download CV</a>
+            <div className="" id='zakon'>
+            <a download="AtanaseJakovov-Cv.pdf" href="/pdf/cv.pdf" className="btn content-download button-main button-scheme" role="button">
+  Download CV
+</a>
+
               <ul class="list-unstyled list-inline content-follow">
                 <li class="list-inline-item"><a href="https://twitter.com/orenjipluto" target="_blank" rel="noopener noreferrer"><TwitterIcon /></a></li>
                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/atanas-jakovov-58199520b/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a></li>
